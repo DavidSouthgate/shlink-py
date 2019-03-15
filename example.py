@@ -1,19 +1,3 @@
-# shlink-py
-Python module for API communication with [Shlink](https://shlink.io)
-
-## Installation
-To install simply use pip:
-
-```bash
-pip install shlink
-```
-
-## Usage
-The package is used by creating a new instance of an Shlink object. API calls can then be made using methods on this object.
-
-An example of all of the calls available is shown in the below example:
-
-```python
 import json
 import sys
 from datetime import datetime
@@ -21,8 +5,8 @@ from shlink import Shlink
 from shlink.data import Error
 
 shlink = Shlink(
-    url="https://example.com/",
-    api_key="000000000-0000-0000-0000-000000000000"
+    url="https://sgte.uk/",
+    api_key="03c322f6-a13c-4412-8ecf-23357e9c4b86"
 )
 
 # LIST_SHORT_URLS
@@ -52,12 +36,4 @@ result = shlink.get_short_url("example")
 print(json.dumps(result.to_dict()))
 if isinstance(result, Error):
     sys.exit(3)
-```
 
-## Development
-To run this project in a development environment `pipenv` is recommended.
-
-E.g.
-```bash
-pipenv run python example.py
-```
