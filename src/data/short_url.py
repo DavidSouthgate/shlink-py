@@ -1,8 +1,8 @@
 from datetime import datetime
 from typing import List, Optional, Dict, Union
-from .parse import Parse
-from .data import Data
-from .error import Error
+from ..parse import Parse
+from ..data import Data
+from ..data.error import Error
 
 
 class ShortUrl(Data):
