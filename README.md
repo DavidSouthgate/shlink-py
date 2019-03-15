@@ -1,2 +1,2 @@
 # shlink-py
-Python module for API communication with Shlink
+Python module for API communication with [Shlink](https://shlink.io)
