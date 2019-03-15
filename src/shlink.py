@@ -1,7 +1,7 @@
 import requests
 from typing import Dict, List, Any
-from .paged_data import PagedData
-from .short_url import ShortUrl
+from .data import PagedData
+from .data import ShortUrl
 from urllib.parse import quote
 
 
