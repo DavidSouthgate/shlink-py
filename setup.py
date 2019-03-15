@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="shlink-py",
-    version="0.0.2",
+    version="0.0.3",
     author="David Southgate",
     author_email="d@davidsouthgate.co.uk",
     description="Python package for API communication with Shlink",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://bitbucket.org/davidksouthgate/shlink-py/",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
