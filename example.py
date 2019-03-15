@@ -5,8 +5,8 @@ from shlink import Shlink
 from shlink.data import Error
 
 shlink = Shlink(
-    url="https://sgte.uk/",
-    api_key="03c322f6-a13c-4412-8ecf-23357e9c4b86"
+    url="https://example.com/",
+    api_key="000000000-0000-0000-0000-000000000000"
 )
 
 # LIST_SHORT_URLS
