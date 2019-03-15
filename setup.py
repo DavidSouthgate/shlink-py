@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="shlink-py",
-    version="0.0.1",
+    version="0.0.2",
     author="David Southgate",
     author_email="d@davidsouthgate.co.uk",
     description="Python package for API communication with Shlink",
