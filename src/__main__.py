@@ -1,4 +1,4 @@
-from . import Shlink
+from .shlink import Shlink
 import os
 import json
 
@@ -6,7 +6,7 @@ import json
 def main():
 
     # Load URL and API Key from file
-    with open(os.path.dirname(os.path.realpath(__file__)) + "/config", 'r') as file:
+    with open(os.path.dirname(os.path.realpath(__file__)) + "/../config", 'r') as file:
         data = file.read()
     pos = data.index(",")
     url = data[:pos]

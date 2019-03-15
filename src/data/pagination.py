@@ -1,5 +1,5 @@
 from typing import Dict
-from .data import Data
+from ..data import Data
 
 
 class Pagination(Data):

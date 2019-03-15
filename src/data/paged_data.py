@@ -1,7 +1,7 @@
-from .pagination import Pagination
 from typing import Any, Dict, Callable, List, Union
-from .data import Data
-from .error import Error
+from ..data import Data
+from ..data.pagination import Pagination
+from ..data.error import Error
 
 
 class PagedData(Data):
